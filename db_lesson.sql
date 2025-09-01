@@ -149,3 +149,6 @@ FROM people
 LEFT JOIN reports
 ON people.person_id = reports.person_id
 WHERE reports.person_id IS NULL;
+
+
+変更用の追加行
